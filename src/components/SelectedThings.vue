@@ -5,7 +5,7 @@
         <div class="d-flex flex-wrap ga-2 mb-2">
           <div class="clothes-block__item" v-for="(item, index) in selectedClothes" :key="index" @click="removeSelectedClothes(item)">{{item.name}}</div>
         </div>
-        Выбрано: {{selectedClothes.length}} / 6 <button class="cursor-pointer border-solid pa-1 ml-2" @click="removeAllSelectedClothes">Очистить</button>
+          Выбрано: {{selectedClothes.length}} / 6 <button class="cursor-pointer border-solid pa-1 ml-2" @click="removeAllSelectedClothes">Очистить</button>
       </div>
 
       <div class="w-50 border-solid mb-2 pa-2">
